@@ -4,7 +4,7 @@
 
 ### Hi  👋  ![visitors](https://visitor-badge.glitch.me/badge?page_id=https://github.com/Unik-Dahal)
    - :school: I'm [Unik Dahal](https://Unik-Dahal.github.io/), currently studying B.Tech(CSE) from <a href="https://kiit.ac.in/">@KIIT  </a>
-   -  🔭 I’m currently learning **C** & **Data Science**
+   -  🔭 I’m currently learning **Python** & **DSA**
    -  :neutral_face: I have a **love/hate** relationship with **Programming**
    -  🤔 I’m looking for help with Data Structures and Algorithms 
    -  💬 Ask me about anything, I am happy to help
