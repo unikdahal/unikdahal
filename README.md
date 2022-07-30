@@ -25,14 +25,8 @@
 </br>
 </br>
 <img src='https://github-readme-stats.vercel.app/api/top-langs/?username=Unik-Dahal&theme=tokyonight&hide_langs_below=4' />
-   </br>
-   </br>
 [![trophy](https://github-profile-trophy.vercel.app/?username=Unik-Dahal&theme=onedark&row=1&column=7)](https://github.com/ryo-ma/github-profile-trophy)
-   </br>
-   </br>
 ![](https://github-readme-streak-stats.herokuapp.com/?user=Unik-Dahal&theme=dark)
-   </br>
-   </br>
 <img src="https://activity-graph.herokuapp.com/graph?username=Unik-Dahal&theme=react-dark&bg_color=20232a&hide_border=true" width="100%">
    </br>
    </br>
