@@ -22,8 +22,6 @@
    </br>
 <div align="center">
 <img src='https://github-readme-stats.vercel.app/api?username=Unik-Dahal&show_icons=true&theme=tokyonight&count_private=true&line_height=40'  align="left" />
-</br>
-</br>
 <img src='https://github-readme-stats.vercel.app/api/top-langs/?username=Unik-Dahal&theme=tokyonight&hide_langs_below=4' />
 [![trophy](https://github-profile-trophy.vercel.app/?username=Unik-Dahal&theme=onedark&row=1&column=7)](https://github.com/ryo-ma/github-profile-trophy)
 ![](https://github-readme-streak-stats.herokuapp.com/?user=Unik-Dahal&theme=dark)
