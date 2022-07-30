@@ -34,8 +34,9 @@
 <details> 
  <summary>🤖 <b>My programming stats</b>: </summary>
 <br>
-
+</details>
 ## Watch my contributions get eaten by snake 🐍
+![snake gif](https://github.com/Unik-Dahal/Unik-Dahal/blob/output/github-contribution-grid-snake.gif)
 
 <!-- Contribution Snake -->
 
