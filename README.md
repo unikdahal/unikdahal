@@ -1,6 +1,6 @@
 <div align="left">
 
-<img src='https://user-images.githubusercontent.com/61407386/148674307-700bb6d6-0904-4e4b-bb8b-e2bca910b319.png' align='centre'>
+<img src='https://user-images.githubusercontent.com/61407386/148674307-700bb6d6-0904-4e4b-bb8b-e2bca910b319.png' align='center'>
 
 ### Hi  👋  ![visitors](https://visitor-badge.glitch.me/badge?page_id=https://github.com/Unik-Dahal)
    - :school: I'm [Unik Dahal](https://Unik-Dahal.github.io/), currently studying B.Tech(CSE) from <a href="https://kiit.ac.in/">@KIIT  </a>
