@@ -1,49 +1,44 @@
-<div align="center">
+### Unik Dahal
 
-# Hi, I'm Unik Dahal 👋
-
-### Software Development Engineer | Backend Specialist
-*Building scalable systems & solving problems from first principles.*
-
-[Website](http://www.unikdahal.com.np) • [LinkedIn](https://www.linkedin.com/in/unikdahal/) • [Email](mailto:contact@unikdahal.com.np)
+Backend engineer at Highradius, working on the G4 Data Platform.
+Based in Hyderabad. Originally from Nepal.
 
 ---
 
-</div>
+I spend my days migrating analytical query layers, cutting query latency with Arrow Flight SQL, and shipping orchestration engines across distributed microservice systems. I like working on infrastructure that has to be correct, the kind where a bug costs more than a test run.
 
-### 👨‍💻 About Me
-
-I am a **Software Development Engineer** at **Highradius**, currently based in Hyderabad, India. Originally from the mountains of Nepal 🇳🇵, I bring a clear, structured approach to engineering.
-
-I don't just write code; I strive to understand the **"Why"** and **"How"** behind every technology I use. My engineering philosophy revolves around **First Principles Thinking**—breaking complex problems down to their fundamental truths to build robust solutions.
-
-* 🔭 **Current Focus:** Designing scalable Microservices, High-Level System Design (HLD), and Event-Driven Architectures.
-* 🧠 **Learning:** Deep diving into Database Internals and Advanced Algorithms.
-* ⚡ **Fun Fact:** When I'm not engineering backend systems, I'm likely analyzing a **Sherlock Holmes** mystery, watching Sci-Fi, or planning my next trek.
+When I'm not at work, I'm building things for myself.
 
 ---
 
-### 🛠️ Technical Arsenal
+**Now**
 
-I specialize in the Java ecosystem and distributed systems.
-
-| **Backend Core** | **Data & Messaging** | **Infrastructure & Tools** |
-|:---:|:---:|:---:|
-| ![Java](https://img.shields.io/badge/Java-ED8B00?style=flat-square&logo=openjdk&logoColor=white) | ![MySQL](https://img.shields.io/badge/MySQL-005C84?style=flat-square&logo=mysql&logoColor=white) | ![Docker](https://img.shields.io/badge/Docker-2CA5E0?style=flat-square&logo=docker&logoColor=white) |
-| ![Spring Boot](https://img.shields.io/badge/Spring_Boot-6DB33F?style=flat-square&logo=spring-boot&logoColor=white) | ![Redis](https://img.shields.io/badge/Redis-DC382D?style=flat-square&logo=redis&logoColor=white) | ![AWS](https://img.shields.io/badge/AWS-232F3E?style=flat-square&logo=amazon-aws&logoColor=white) |
-| ![Microservices](https://img.shields.io/badge/Microservices-1f425f?style=flat-square) | ![Kafka](https://img.shields.io/badge/Apache_Kafka-231F20?style=flat-square&logo=apache-kafka&logoColor=white) | ![Git](https://img.shields.io/badge/Git-F05032?style=flat-square&logo=git&logoColor=white) |
-| ![Hibernate](https://img.shields.io/badge/Hibernate-59666C?style=flat-square&logo=hibernate&logoColor=white) | ![ElasticSearch](https://img.shields.io/badge/-ElasticSearch-005571?style=flat-square&logo=elasticsearch) | ![Postman](https://img.shields.io/badge/Postman-FF6C37?style=flat-square&logo=postman&logoColor=white) |
+- Rebuilding Redis from scratch in Java 25 &rarr; [redis-java](https://github.com/unikdahal/redis-java)
+- Engineering the full stack for [Sutine](https://sutine.com), a clothing label I co-own
+- Planning to pursue a Master's degree next year
 
 ---
 
-### 📈 GitHub Stats
+**Work**
 
-<div align="center">
+At Highradius I've migrated the analytical query layer from Snowflake to Spark 3.5, Iceberg, and Kyuubi. Replaced ThriftServer with Arrow Flight SQL and ADBC, saving 1.5 seconds per query. Built a 7-microservice orchestration engine that cut release cycle time by 83%. Designed SAGA rollback chains across distributed services, reducing production incidents by 70%.
 
-![Unik's GitHub Stats](https://github-readme-stats.vercel.app/api?username=unikdahal&show_icons=true&theme=gotham&hide_border=true&count_private=true)
-
-</div>
+Before that, I built the backend for ImmiHealth, a HIPAA-compliant telemedicine platform.
 
 ---
 
-> *"I fear not the man who has practiced 10,000 kicks once, but I fear the man who has practiced one kick 10,000 times."* — Bruce Lee
+**Projects**
+
+`redis-java` &nbsp;&nbsp; A Redis-compatible server in Java 25 with Netty. Full RESP protocol, MULTI/EXEC transactions, Redis Streams, PSYNC2 replication with deterministic command canonicalization, circuit breaker for slow replicas, and 599 tests. Compatible with redis-cli, jedis, and lettuce.
+
+`sutine` &nbsp;&nbsp; End-to-end e-commerce platform. Spring Boot 3 backend, React + TypeScript storefront and admin panel, Cloudflare R2 for image storage, MySQL HeatWave, Oracle Cloud, GitHub Actions CI/CD.
+
+---
+
+**Stack**
+
+Java 25 &nbsp;·&nbsp; Spring Boot 3 &nbsp;·&nbsp; Apache Kafka &nbsp;·&nbsp; Apache Spark 3.5 &nbsp;·&nbsp; Apache Iceberg &nbsp;·&nbsp; Arrow Flight SQL &nbsp;·&nbsp; Kyuubi &nbsp;·&nbsp; Netty &nbsp;·&nbsp; React &nbsp;·&nbsp; TypeScript &nbsp;·&nbsp; MySQL &nbsp;·&nbsp; PostgreSQL &nbsp;·&nbsp; Docker &nbsp;·&nbsp; Kubernetes &nbsp;·&nbsp; AWS &nbsp;·&nbsp; Cloudflare
+
+---
+
+[unikdahal.com.np](https://www.unikdahal.com.np) &nbsp;·&nbsp; [linkedin.com/in/unikdahal](https://www.linkedin.com/in/unikdahal) &nbsp;·&nbsp; unikdahal03@gmail.com
