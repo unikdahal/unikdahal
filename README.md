@@ -15,7 +15,6 @@ When I'm not at work, I'm building things for myself.
 
 - Rebuilding Redis from scratch in Java 25 &rarr; [redis-java](https://github.com/unikdahal/redis-java)
 - Engineering the full stack for [Sutine](https://sutine.com), a clothing label I co-own
-- Planning to pursue a Master's degree next year
 
 ---
 
