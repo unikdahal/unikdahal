@@ -1,43 +1,42 @@
-### Unik Dahal
+# Hi, I'm Unik 👋
 
-Backend engineer at Highradius, working on the G4 Data Platform.
-Based in Hyderabad. Originally from Nepal.
+Software engineer from Nepal. I build backend services and data platform infrastructure, and contribute to Apache DataFusion and Arrow projects.
+Currently an SDE I at **HighRadius** on the G4 Data Platform team.
 
----
-
-I spend my days migrating analytical query layers, cutting query latency with Arrow Flight SQL, and shipping orchestration engines across distributed microservice systems. I like working on infrastructure that has to be correct, the kind where a bug costs more than a test run.
-
-When I'm not at work, I'm building things for myself.
+📫 unikdahal03@gmail.com · [LinkedIn](https://www.linkedin.com/in/unikdahal) · [Website](https://www.unikdahal.com.np)
 
 ---
 
-**Now**
+## 🔧 What I work on
 
-- Rebuilding Redis from scratch in Java 25 &rarr; [redis-java](https://github.com/unikdahal/redis-java)
-- Engineering the full stack for [Sutine](https://sutine.com), a clothing label I co-own
+- **Query connectivity:** replaced JDBC/Thrift with Arrow Flight SQL and ADBC, cutting fixed query overhead from ~1.5 s to ~90 ms
+- **Analytics migration:** supported moving analytical workloads from Snowflake to Spark, Iceberg and Kyuubi (~90% lower compute cost on migrated workloads)
+- **Distributed workflows:** built a Saga-based orchestrator across seven microservices; environment recreation went from ~6 months to ~1 month
+- **Multi-tenancy:** fair query admission using Redis-backed leases and tenant-aware routing
+- **Production debugging:** database lock contention, catalog and metadata issues
 
----
+## 🌍 Open source
 
-**Work**
+**Merged**
+- DataFusion Comet: native Iceberg MERGE execution, plus WriteDelta planning and delete-metadata correctness
+- Apache Arrow ADBC: Java Flight SQL `flightsql://` URI support
+- Apache DataFusion: fix for a panic on zero-field structs
 
-At Highradius I've migrated the analytical query layer from Snowflake to Spark 3.5, Iceberg, and Kyuubi. Replaced ThriftServer with Arrow Flight SQL and ADBC, saving 1.5 seconds per query. Built a 7-microservice orchestration engine that cut release cycle time by 83%. Designed SAGA rollback chains across distributed services, reducing production incidents by 70%.
+**In progress**
+- Native merge-on-read writes in DataFusion Comet
+- Row-group-level runtime pruning for Iceberg (iceberg-rust / DataFusion Comet), up to 42x faster on one benchmark query
 
-Before that, I built the backend for ImmiHealth, a HIPAA-compliant telemedicine platform.
+## 🚀 Projects
 
----
+- **[redis-java](https://github.com/unikdahal/redis-java):** a Redis-compatible server in Java 25 and Netty. It covers RESP, pipelining, transactions, streams, replication, and 599+ tests.
+- **[Sutine](https://sutine.com):** a full-stack e-commerce platform for the clothing label I co-own.
 
-**Projects**
+## 🛠️ Tech
 
-`redis-java` &nbsp;&nbsp; A Redis-compatible server in Java 25 with Netty. Full RESP protocol, MULTI/EXEC transactions, Redis Streams, PSYNC2 replication with deterministic command canonicalization, circuit breaker for slow replicas, and 599 tests. Compatible with redis-cli, jedis, and lettuce.
+`Java` `SQL` `TypeScript` `Python` `C++` `Rust` · `Spark` `Iceberg` `Kyuubi` `Arrow Flight SQL` `Kafka` `Redis` `PostgreSQL` `MySQL` · `Docker` `Kubernetes` `AWS`
 
-`sutine` &nbsp;&nbsp; End-to-end e-commerce platform. Spring Boot 3 backend, React + TypeScript storefront and admin panel, Cloudflare R2 for image storage, MySQL HeatWave, Oracle Cloud, GitHub Actions CI/CD.
+## 🎓 Education
 
----
+B.Tech in Computer Science & Engineering (Minor: Financial Economics), KIIT University · CGPA 9.12
 
-**Stack**
-
-Java 25 &nbsp;·&nbsp; Spring Boot 3 &nbsp;·&nbsp; Apache Kafka &nbsp;·&nbsp; Apache Spark 3.5 &nbsp;·&nbsp; Apache Iceberg &nbsp;·&nbsp; Arrow Flight SQL &nbsp;·&nbsp; Kyuubi &nbsp;·&nbsp; Netty &nbsp;·&nbsp; React &nbsp;·&nbsp; TypeScript &nbsp;·&nbsp; MySQL &nbsp;·&nbsp; PostgreSQL &nbsp;·&nbsp; Docker &nbsp;·&nbsp; Kubernetes &nbsp;·&nbsp; AWS &nbsp;·&nbsp; Cloudflare
-
----
-
-[unikdahal.com.np](https://www.unikdahal.com.np) &nbsp;·&nbsp; [linkedin.com/in/unikdahal](https://www.linkedin.com/in/unikdahal) &nbsp;·&nbsp; unikdahal03@gmail.com
+🏆 HighRadius Fresher of the Year (HighFlyer 2025)
